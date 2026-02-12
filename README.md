@@ -63,4 +63,4 @@ Include screenshots of:
 * Colab notebook (.ipynb)
 * README.md
 * Screenshots of all pages
-* Working Ngrok public URL
+* Working Ngrok public URL- https://justine-strikebound-independently.ngrok-free.dev/
