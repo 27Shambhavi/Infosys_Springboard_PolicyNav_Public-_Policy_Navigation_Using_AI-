@@ -7,7 +7,7 @@ PolicyNav – Public Policy Navigation Using AI
 
 ## Description
 
-In this milestone, a secure user authentication system was developed using **Streamlit, MySQL, JWT, and Ngrok**.
+In this milestone, a secure user authentication system was developed using **Streamlit, sqlite, JWT, and Ngrok**.
 This system provides user signup, login, dashboard access, and password recovery functionality.
 
 ## Features Implemented
