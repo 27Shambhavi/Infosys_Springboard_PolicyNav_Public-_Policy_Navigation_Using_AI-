@@ -52,10 +52,20 @@ This system provides user signup, login, dashboard access, and password recovery
 
 Include screenshots of:
 
-* Signup Page
-* Login Page
-* Dashboard
-* Forgot Password Page
+## 📸 Application Screenshots
+
+### 🔐 Signup Page
+![Signup](screenshots/Signup.png)
+
+### 🔑 Login Page
+![Login](screenshots/Login.png)
+
+### 📊 Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### ♻️ Forgot Password
+![Forgot Password](screenshots/Forgetpassword.png)
+
 
 ## Deliverables
 
