@@ -55,16 +55,20 @@ Include screenshots of:
 ## 📸 Application Screenshots
 
 ### 🔐 Signup Page
-![Signup](screenshots/Signup.png)
+![Signup]<img width="1919" height="823" alt="Signup" src="https://github.com/user-attachments/assets/250a52d1-2c0d-4471-a859-d872a046dc2d" />
+
 
 ### 🔑 Login Page
-![Login](screenshots/Login.png)
+![Login]<img width="1897" height="795" alt="Login" src="https://github.com/user-attachments/assets/a44bc225-8b10-407b-b58b-0ac1a458ef9b" />
+
 
 ### 📊 Dashboard
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard]<img width="1909" height="803" alt="Dashboard" src="https://github.com/user-attachments/assets/bd45d233-aa76-497c-9527-36b5f99f3b93" />
+
 
 ### ♻️ Forgot Password
-![Forgot Password](screenshots/Forgetpassword.png)
+![Forgot Password]<img width="1855" height="673" alt="Forgetpassword" src="https://github.com/user-attachments/assets/59862f14-b5ec-42b2-98c0-da15690322cd" />
+
 
 
 ## Deliverables
