@@ -22,7 +22,7 @@ This system provides user signup, login, dashboard access, and password recovery
 
 * Python
 * Streamlit
-* MySQL
+* sqlite
 * JWT Authentication
 * Ngrok
 
