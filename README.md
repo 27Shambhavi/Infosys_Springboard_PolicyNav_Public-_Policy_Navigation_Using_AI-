@@ -50,11 +50,16 @@ This project enhances Milestone 1 by integrating advanced authentication and ana
 ## 📸 Screenshots
 
 ### 🔐 OTP Login
-![OTP Screenshot](screenshots/otp.png)
+<img width="1911" height="739" alt="Screenshot 2026-02-21 023722" src="https://github.com/user-attachments/assets/2ab48a55-780a-4e2f-b8c3-e0e36d95df6b" />
+
 
 ### 📊 Readability Dashboard
-![Dashboard Screenshot](screenshots/readability.png)
+<img width="1919" height="874" alt="Screenshot 2026-02-21 004224" src="https://github.com/user-attachments/assets/e79418b7-704d-4cbe-b22c-a4f33c700604" />
+<img width="1919" height="816" alt="Screenshot 2026-02-21 004236" src="https://github.com/user-attachments/assets/a91ec060-1ff6-47ee-ac5b-744cae072418" />
+
+### User panel
+<img width="1919" height="807" alt="Screenshot 2026-02-21 004340" src="https://github.com/user-attachments/assets/67aa9ab7-d17e-47dc-aecc-6c1d3d8bf8b5" />
 
 ### 🛡 Admin Panel
 ![Admin Screenshot](screenshots/admin.png)
-
+<img width="1919" height="640" alt="Screenshot 2026-02-21 004313" src="https://github.com/user-attachments/assets/82fe49e3-d0fc-4f66-b43d-13a156651079" />
