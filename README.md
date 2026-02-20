@@ -61,5 +61,4 @@ This project enhances Milestone 1 by integrating advanced authentication and ana
 <img width="1919" height="807" alt="Screenshot 2026-02-21 004340" src="https://github.com/user-attachments/assets/67aa9ab7-d17e-47dc-aecc-6c1d3d8bf8b5" />
 
 ### 🛡 Admin Panel
-![Admin Screenshot](screenshots/admin.png)
 <img width="1919" height="640" alt="Screenshot 2026-02-21 004313" src="https://github.com/user-attachments/assets/82fe49e3-d0fc-4f66-b43d-13a156651079" />
