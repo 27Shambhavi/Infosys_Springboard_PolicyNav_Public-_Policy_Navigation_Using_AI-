@@ -1,66 +1,39 @@
-# PolicyNav – AI Powered Policy Navigation System
+PolicyNav – Public Policy Navigation Using AI
 
-## 📌 Project Overview
+Name: Shambhavi Jha 
 
-PolicyNav is a secure AI-powered portal developed as part of the Infosys Springboard Internship Program.
+Project Overview
 
-This project enhances Milestone 1 by integrating advanced authentication and analytics features.
+PolicyNav is a specialized AI-powered project focused on navigating and understanding complex public policy and legal documents.
 
----
+This project is part of an intensive program consisting of approximately 60 live interactive sessions. The goal is to build practical expertise in applying Artificial Intelligence to governance, legal technology, and public policy analysis.
 
-## 🔐 Implemented Features
+What This Project Covers
 
-### 1️⃣ OTP Authentication
-- Secure login using email-based OTP verification
-- Rate limiting to prevent brute-force attacks
-- Password reuse protection
-- JWT-based session authentication
+AI-powered search and navigation of public policy documents
 
-### 2️⃣ Readability Dashboard
-- Text Readability Analysis using `textstat`
-- Supports:
-  - Flesch Reading Ease
-  - Flesch-Kincaid Grade
-  - SMOG Index
-  - Gunning Fog
-  - Coleman-Liau Index
-- Upload TXT and PDF files
-- Interactive gauge visualization using Plotly
+Natural Language Processing (NLP) for legal and regulatory texts
 
-### 3️⃣ Admin Panel
-- View all registered users
-- Delete users (admin protected)
-- Secure admin authentication
+Intelligent summarization of complex policies
 
----
+Entity extraction from regulations and legal documents
 
-## 🛠 Tech Stack
+Question-answering systems for policy analysis
 
-- Python
-- Streamlit
-- SQLite
-- bcrypt
-- JWT
-- Plotly
-- PyPDF2
-- textstat
+AI assistants for compliance checking and stakeholder navigation
 
----
+Real-world datasets and practical case studies
 
-## 📸 Screenshots
+Objective
 
-### 🔐 OTP Login
-<img width="1919" height="832" alt="Screenshot 2026-02-23 131824" src="https://github.com/user-attachments/assets/b29e63e2-cb2c-489a-822a-cdb0b07a42cd" />
+The objective of PolicyNav is to develop industry-relevant skills in using AI for:
 
+Governance and public administration
 
+Legal technology (LegalTech)
 
-### 📊 Readability Dashboard
-<img width="1919" height="783" alt="Screenshot 2026-02-23 131931" src="https://github.com/user-attachments/assets/ef9b8abc-2ac0-45c5-83bb-678e0b27efd9" />
-<img width="1919" height="790" alt="Screenshot 2026-02-23 132045" src="https://github.com/user-attachments/assets/20d4c252-1729-4584-945e-2f63715371ef" />
+Policy intelligence and compliance systems
 
+Regulatory analysis and decision support
 
-### Login/signup
-<img width="1919" height="864" alt="Screenshot 2026-02-23 131759" src="https://github.com/user-attachments/assets/48b440bd-7b89-4c6e-bc01-723dd71b5f87" />
-<img width="1919" height="801" alt="Screenshot 2026-02-23 131806" src="https://github.com/user-attachments/assets/1bc3c827-a8b0-4375-bad7-8ffdfe24c8ea" />
-
-
+By the end of this program, the project aims to build strong practical knowledge in applying AI solutions to complex policy environments.
