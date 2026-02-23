@@ -32,7 +32,7 @@ Interactive gauge visualization using Plotly
 View all registered users
 Delete users (admin protected)
 Secure admin authentication
-
+Public url : https://justine-strikebound-independently.ngrok-free.dev/
 
 🛠 Tech Stack
 Python
@@ -66,4 +66,5 @@ Signup
 <img width="1919" height="790" alt="Screenshot 2026-02-23 132045" src="https://github.com/user-attachments/assets/8467108c-e609-49ac-b2fd-142722fa2ece" />
 
 <img width="1919" height="783" alt="Screenshot 2026-02-23 131931" src="https://github.com/user-attachments/assets/2ec267a0-bb77-4e75-9e40-7ada987aff5c" />
+
 
