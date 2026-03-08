@@ -15,7 +15,7 @@ This milestone was completed collaboratively by the following team members:
 
 👤 Raam Prakash S
 
-🤝 This is a group project milestone, and all members contributed to development, testing, and system integration.
+This is a group project milestone [TEAM 2] , and all members contributed to development, testing, and system integration.
 
 📌 Project Overview
 
@@ -173,4 +173,32 @@ Milestone 3 successfully implements an AI-powered multilingual Q&A system with:
 🧠 Knowledge graph integration
 
 The system improves information retrieval, knowledge representation, and user interaction, while maintaining integration with authentication, dashboards, and enhanced UI/UX.
+
+
+ ## 📸 Project Output
+
+<img width="1919" height="851" alt="Screenshot 2026-03-08 211420" src="https://github.com/user-attachments/assets/107cec9f-ac26-4400-a560-4d212e3c324d" />
+
+
+<img width="1907" height="865" alt="Screenshot 2026-03-08 212537" src="https://github.com/user-attachments/assets/d1a27e17-9c85-4350-ac84-977828a6f2b7" />
+
+
+<img width="1919" height="852" alt="Screenshot 2026-03-08 212207" src="https://github.com/user-attachments/assets/f7769bba-649b-400b-886a-c4e47458a308" />
+
+
+<img width="1917" height="842" alt="Screenshot 2026-03-08 212103" src="https://github.com/user-attachments/assets/d857d32b-f545-4fce-a1ed-8607533d9623" />
+
+
+<img width="1919" height="859" alt="Screenshot 2026-03-08 211930" src="https://github.com/user-attachments/assets/c99f611f-9128-46ae-b6f3-f19f7c6151f4" />
+
+
+<img width="1918" height="868" alt="Screenshot 2026-03-08 211749" src="https://github.com/user-attachments/assets/df2d4c11-cc43-4cf1-8467-827685f6a50e" />
+
+<img width="1919" height="854" alt="Screenshot 2026-03-08 212621" src="https://github.com/user-attachments/assets/88c6004b-353a-4010-b281-b9766ff3583f" />
+
+
+<img width="1917" height="868" alt="Screenshot 2026-03-08 212608" src="https://github.com/user-attachments/assets/3eb0fedc-9e15-4ddc-857f-354bb240f1c7" />
+
+<img width="1919" height="857" alt="Screenshot 2026-03-08 211549" src="https://github.com/user-attachments/assets/625df05c-4b34-4d11-8eca-009165b87242" />
+
 
