@@ -98,11 +98,11 @@ Enhanced interface including:
 👨‍💻 Improved user interaction
 
 👨‍💻 Team Contributions
-🌐 Translation Search & Multilingual Processing
+🌐 RAG Search & Multilingual Processing
 
 Developed by:
 
-Mainuddeen
+Shambhavi Jha
 
 Bhuvaneshwar Reddy Mandadapu
 
@@ -124,7 +124,7 @@ Responsibilities:
 
 Automatic summarization
 
-Web search integration for retrieving relevant content
+Web search integration with Wikipedia for retrieving relevant content
 
 🧠 Knowledge Graph & Global History
 
