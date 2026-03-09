@@ -98,6 +98,8 @@ Enhanced interface including:
 👨‍💻 Improved user interaction
 
 👨‍💻 Team Contributions
+
+
 🌐 RAG Search & Multilingual Processing
 
 Developed by:
