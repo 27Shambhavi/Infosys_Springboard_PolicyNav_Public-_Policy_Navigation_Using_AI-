@@ -107,25 +107,7 @@ Additional improvements were added to enhance the **interface flow and usability
 ## 📊 Admin Dashboard
 
 
-![Admin Dashboard]()
-
----
-
-
-![Analytics Charts](images/analytics_dashboard.png)
-
----
-
 ## 👤 User Profile Dashboard
-
-*(Add screenshot here)*
-
-![User Profiel]()
-
-
-## Update EMAILS and PASSWORDS 
-
-
 
 
 
