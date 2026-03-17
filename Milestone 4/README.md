@@ -115,7 +115,6 @@ Additional improvements were added to enhance the **interface flow and usability
 <img width="1919" height="877" alt="Screenshot 2026-03-15 134023" src="https://github.com/user-attachments/assets/70d113eb-7abd-438e-aba4-69a18aff0c13" />
 <img width="1919" height="871" alt="Screenshot 2026-03-15 134247" src="https://github.com/user-attachments/assets/1dc5ab35-4cae-480a-98c1-3292cd8b6c62" />
 <img width="1919" height="865" alt="Screenshot 2026-03-15 134205" src="https://github.com/user-attachments/assets/70c34622-2ade-4684-a0a9-be14499c64cd" />
-<img width="1919" height="871" alt="Screenshot 2026-03-15 134144" src="https://github.com/user-attachments/assets/c75f1eed-f24f-4ee4-b082-0bc7463121a6" />
 
 
 All features have been **implemented, tested, and integrated successfully**.
