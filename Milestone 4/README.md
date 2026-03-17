@@ -99,28 +99,24 @@ Users can:
 
 Additional improvements were added to enhance the **interface flow and usability**, making the application more interactive and user-friendly.
 
-
----
-
-# 🖼 Dashboard Screenshots
-
-## 📊 Admin Dashboard
-
-
-## 👤 User Profile Dashboard
-
-
-
----
-
-# ✅ Milestone 4 Completion Status
-
 ✔ Admin Dashboard implemented
 ✔ User Dashboard implemented
 ✔ Analytics and visualizations added
 ✔ Feedback analysis with WordCloud
 ✔ User profile personalization
 ✔ Data export functionality
+
+# 🖼 Dashboard Screenshots
+
+
+<img width="1919" height="872" alt="Screenshot 2026-03-15 133821" src="https://github.com/user-attachments/assets/4c0d059e-69f9-46f0-a39e-07e298c0c335" />
+<img width="1918" height="859" alt="Screenshot 2026-03-15 134134" src="https://github.com/user-attachments/assets/d27ff1ce-2bbd-4999-b6ed-9cc27f8493a9" />
+<img width="1919" height="864" alt="Screenshot 2026-03-15 134034" src="https://github.com/user-attachments/assets/2d2c8684-3200-452e-934e-406933f77242" />
+<img width="1919" height="877" alt="Screenshot 2026-03-15 134023" src="https://github.com/user-attachments/assets/70d113eb-7abd-438e-aba4-69a18aff0c13" />
+<img width="1919" height="871" alt="Screenshot 2026-03-15 134247" src="https://github.com/user-attachments/assets/1dc5ab35-4cae-480a-98c1-3292cd8b6c62" />
+<img width="1919" height="865" alt="Screenshot 2026-03-15 134205" src="https://github.com/user-attachments/assets/70c34622-2ade-4684-a0a9-be14499c64cd" />
+<img width="1919" height="871" alt="Screenshot 2026-03-15 134144" src="https://github.com/user-attachments/assets/c75f1eed-f24f-4ee4-b082-0bc7463121a6" />
+
 
 All features have been **implemented, tested, and integrated successfully**.
 
