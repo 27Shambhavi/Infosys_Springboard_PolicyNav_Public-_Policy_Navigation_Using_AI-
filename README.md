@@ -318,7 +318,7 @@ The platform includes a dedicated admin interface for managing users, monitoring
 - Ensure secure access and data protection
 
 
-# 🚀 Key Features (Detailed Explanation)
+# 🚀 Key Features 
 
 ## 👤 User Features
 
@@ -614,7 +614,7 @@ Why Monolithic?
 <img width="1824" height="814" alt="Screenshot 2026-03-18 225902" src="https://github.com/user-attachments/assets/a4b611e3-8f3b-4bbc-acee-af7fe734581c" />
 
 
-880" height="830" alt="Screenshot 2026-03-18 225531" src="https://github.com/user-attachments/assets/1e6c1af5-3ad7-4e77-be72-441f08d4e79d" />
+![Screenshot 2026-03-18 225531](https://github.com/user-attachments/assets/1e6c1af5-3ad7-4e77-be72-441f08d4e79d)
 
 
 # 📊 Roadmap
