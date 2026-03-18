@@ -178,18 +178,30 @@ milestones/
 ├── milestone_1/
 
 │   ├── README.md   # Covers initial setup, problem understanding, and basic implementation
+
 │
+
 ├── milestone_2/
 
 │   ├── README.md   # Covers core feature development (authentication, basic NLP modules)
+
 │
+
 ├── milestone_3/
 
-│   ├── README.md   # Covers advanced AI integration (search, summarization, translation)
+    ├── README.md   # Covers advanced AI integration (search, summarization, translation)
+│   
+
+
 │
+
 ├── milestone_4/
 
-│   ├── README.md   # Covers final integration, testing, deployment, and optimization
+│  
+
+├── README.md   # Covers final integration, testing, deployment, and optimization
+
+
 # ⚙️ Installation & Setup
 
 ## 🔧 Prerequisites
