@@ -201,13 +201,6 @@ Ensure you have the following installed:
 -  Docker for containerized deployment
 
 ---
-
-## 📥 Clone the Repository
-
-```bash
-git clone <repository-link>
-cd PolicyNav
-
 ## Install Dependencies
 pip install -r requirements.txt
 
@@ -220,69 +213,6 @@ To run the project using Docker:
 
 docker build -t policynav .
 docker run -p 8501:8501 policynav
-
-
-
----
-
-```markdown id="u7n41q"
-# 📝 Usage Guide
-
-Follow these steps to use the PolicyNav platform:
-
----
-
-## 🔑 Step 1: Register / Login
-- Create a new account or log in using existing credentials.
-- Use OTP-based password recovery if needed.
-
----
-
-## 💬 Step 2: Ask Policy Questions
-- Enter your query in natural language.
-- Example: *"What are the benefits of this policy?"*
-
----
-
-## 🔍 Step 3: View AI Responses
-- The system retrieves relevant policy data.
-- Generates a contextual answer using AI models.
-
----
-
-## ✂️ Step 4: Generate Summaries
-- View concise summaries of long policy documents.
-- Helps in quick understanding of key points.
-
----
-
-## 🌍 Step 5: Use Multi-language Support
-- Translate queries and responses into preferred languages.
-
----
-
-## 🕸 Step 6: Explore Knowledge Graphs
-- Visualize relationships between entities in policies.
-- Understand connections interactively.
-
----
-
-## 📖 Step 7: Analyze Readability
-- Check complexity of policy text.
-- View simplified interpretations.
-
----
-
-## 👤 Step 8: Manage Profile
-- Update personal details
-- Change password
-- Upload profile image
-
----
-
-## ⭐ Step 9: Provide Feedback
-- Rate responses
-- Submit comments for system improvement
 
 
 # 🛡 Admin Controls
