@@ -171,21 +171,42 @@ The project follows a modular and organized structure to ensure scalability, rea
 
 PolicyNav/
 │
-├── Milestone1/           # Initial phase: problem understanding, basic setup
-│   ├── README.md         # Documentation for Milestone 1
+├── Milestone1/                # Initial phase: problem understanding, basic setup
+│   └── README.md             # Documentation for Milestone 1
 │
-├── Milestone2/           # Core development: authentication, basic features
-│   ├── README.md         # Documentation for Milestone 2
+├── Milestone2/                # Core development: authentication, basic features
+│   └── README.md             # Documentation for Milestone 2
 │
-├── Milestone3/           # Advanced features: AI models, search, summarization
-│   ├── README.md         # Documentation for Milestone 3
+├── Milestone3/                # Advanced features: AI models, search, summarization
+│   └── README.md             # Documentation for Milestone 3
 │
-├── Milestone4/           # Final phase: integration, testing, deployment
-│   ├── README.md         # Documentation for Milestone 4
+├── Milestone4/                # Final phase: integration, testing, deployment
+│   └── README.md             # Documentation for Milestone 4
 │
-├── README.md             # Main project documentation
-├── requirements.txt      # Python dependencies
-├── LICENSE               # Project license (MIT)
+├── README.md                  # Main project documentation
+├── requirements.txt           # Python dependencies
+├── LICENSE                    # Project license (MIT)
+
+## 📁 Structure Overview
+
+- Each **Milestone folder** represents a specific phase of development.
+- Every milestone contains a dedicated `README.md` explaining:
+  - Objectives
+  - Features implemented
+  - Technologies used
+  - Challenges and solutions
+- The root `README.md` provides a complete overview of the entire project.
+- `requirements.txt` ensures easy dependency installation.
+- `LICENSE` defines usage and distribution permissions.
+
+---
+
+## 📌 Why This Structure?
+
+- Promotes **clean and organized development**
+- Makes evaluation **easy and structured**
+- Clearly shows **project progression (M1 → M4)**
+- Helps in **maintenance and scalability**
 
 ## 📁 Milestone Description
 
