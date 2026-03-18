@@ -1,39 +1,122 @@
-🚀 PolicyNav – Public Policy Navigation Using AI
+# Infosys Springboard
+# 🧠 PolicyNav - Public-Policy-Navigation-Using-AI
+AI-Powered Public Policy Navigation and Intelligence Platform
+Simplifying complex government policies through multilingual AI, summarization, and intelligent search.
+# 🔗 Links: 
+| Category       | Link                                   |
+| -------------- | -------------------------------------- |
+| Demo Video     | Coming Soon                            |
+| Source Code    | This Repository                        |
+| Docker Support | Yes                                    |
+| AI Models      | Sentence Transformers · FLAN-T5 · NLLB |
+# 📌 Table of Contents
+- About the Project
+- Problem Statement & Motivation
+- Key Features
+- Architecture
+- Tech Stack
+- Models Used
+- Project Structure
+- Installation & Setup
+- Usage Guide
+- Admin Controls
+- Screenshots
+- Roadmap
+- Team
+- License
+# 📖 About the Project
+- PolicyNav is an AI-powered platform designed to help users easily understand and navigate complex public policies using advanced Natural Language Processing and machine learning techniques.
+- It provides multilingual support, intelligent summarization, semantic search, and knowledge graph visualization to improve accessibility and user understanding.
+- Built as part of the Infosys Springboard Internship Final Project.
+- Target users include students, citizens, researchers, and policy analysts.
+# 🎯 Problem Statement & Motivation
+- Understanding government policies is often difficult due to:
+- Complex language and lengthy documents
+- Lack of centralized and structured information
+- Language barriers for diverse users
+- This system uses AI to:
+- Simplify policy content
+- Provide concise summaries
+- Enable multilingual access
+- Improve information retrieval through intelligent search
+# 🚀 Key Features
+User Features:
+| Feature                | Description                                |
+| ---------------------- | ------------------------------------------ |
+| Secure Authentication  | Login, signup, OTP-based password recovery |
+| AI Policy Assistant    | Ask questions and get intelligent answers  |
+| Multi-language Support | Query and response translation             |
+| Summarization          | Generate concise summaries of policies     |
+| Knowledge Graph        | Visualize entities and relationships       |
+| Readability Analyzer   | Analyze and simplify text complexity       |
+| Global Web Search      | Fetch external policy-related data         |
+| Profile Management     | Avatar, email update, password change      |
+| Activity History       | Track user interactions                    |
+| Feedback System        | Ratings and comments                       |
 
-👤 Name: Shambhavi Jha
-
-📌 Project Overview
-
-PolicyNav is a specialized AI-powered project focused on navigating and understanding complex public policy and legal documents using Artificial Intelligence.
-
-This project is part of an intensive program consisting of approximately 60 live interactive sessions, designed to build practical expertise in applying AI to governance, legal technology, and public policy analysis.
-
-🧠 What This Project Covers
-
-🔎 AI-powered search and navigation of public policy documents
-
-📚 Natural Language Processing (NLP) for legal and regulatory texts
-
-✂️ Intelligent summarization of complex policies
-
-🏷️ Entity extraction from regulations and legal documents
-
-❓ Question-answering systems for policy analysis
-
-🤖 AI assistants for compliance checking and stakeholder navigation
-
-📊 Real-world datasets, case studies, and collaborative problem-solving
-
-🎯 Objective
-
-The objective of PolicyNav is to develop strong, industry-relevant skills in applying AI to:
-
-🏛️ Governance and public administration
-
-⚖️ Legal Technology (LegalTech)
-
-📑 Policy intelligence and compliance systems
-
-📈 Regulatory analysis and decision support
-
-By the end of this program, the goal is to gain practical, hands-on experience in building AI solutions for complex policy environments — a rapidly growing and impactful domain.
+Admin Features:
+- Manage users (view, delete, block)
+- Monitor feedback and ratings
+- View system activity logs
+- Access user statistics dashboard
+# 🧩 Architecture
+Monolithic architecture with integrated AI modules and database.
+- User → Streamlit UI → Backend (Python) → AI Models → Database
+![policy nav architecture](https://github.com/user-attachments/assets/ffe8fe9a-ee6e-4577-bb3f-fc763a65530c)
+# 🛠 Tech Stack
+| Layer         | Technology                |
+| ------------- | ------------------------- |
+| Frontend      | Streamlit                 |
+| Backend       | Python                    |
+| Database      | SQLite                    |
+| AI Models     | Hugging Face Transformers |
+| Search        | FAISS                     |
+| NLP           | SpaCy                     |
+| Visualization | PyVis                     |
+| Security      | JWT, bcrypt, OTP          |
+| Deployment    | Docker                    |
+# 🤖 Models Used
+| Model                 | Purpose                        | Framework    |
+| --------------------- | ------------------------------ | ------------ |
+| Sentence Transformers | Semantic search and embeddings | Transformers |
+| FLAN-T5               | Summarization                  | Transformers |
+| NLLB                  | Language translation           | Transformers |
+| SpaCy                 | Entity extraction              | NLP          |
+# ⚙️ Installation & Setup
+- Prerequisites:
+- Python 3.10+
+- Git
+- Optional: Docker
+- Local Setup:
+- git clone <repository-link>
+- cd PolicyNav
+- pip install -r requirements.txt
+- Run Application:
+- streamlit run app.py
+# 📝 Usage Guide
+- Register or login
+- Ask policy-related questions
+- View summarized outputs
+- Explore knowledge graphs
+- Translate content if required
+- Analyze readability
+- Manage profile and settings
+- Provide feedback
+# 📸 Screenshots
+# 📊 Roadmap
+- Improve model performance
+- Add more datasets
+- Enhance UI/UX
+- Deploy on cloud platform
+- Add voice-based interaction
+# 👥 Team
+| Name                          | Role                              |
+| ----------------------------- | --------------------------------- |
+| Shambhavi Jha                 | AI and NLP Development            |
+| Srideepalakshmi Muruganantham | Backend and Security              |
+| Mainuddeen                    | Summarization and Web Integration |
+| Bhuvaneshwar Reddy Mandadapu  | Profile and System Integration    |
+| Arjun L Nair                  | Testing and Deployment            |
+# 📜 License
+MIT License
+- Free to use, modify, and distribute with proper credits.
