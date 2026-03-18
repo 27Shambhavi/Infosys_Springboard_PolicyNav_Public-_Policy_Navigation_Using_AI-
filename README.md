@@ -1,187 +1,313 @@
-# Infosys Springboard  
-
-# 🧠 PolicyNav – Public Policy Navigation Using AI  
-AI-powered platform for simplifying and navigating complex public policy documents using Natural Language Processing and Machine Learning.
-
----
-
-## 🎥 Demo Video  
-Watch the working demo of PolicyNav:  
-[▶️ Demo Video](https://drive.google.com/file/d/1iWPSKYKJvN9n7cfZkcAdOkUDFPQ0DH1q/view?usp=sharing)
-
----
-
-## 🔗 Links  
-| Category       | Link |
-| -------------- | ---- |
-| Source Code    | This Repository |
-| Docker Support | Yes |
+# Infosys Springboard
+# 🧠 PolicyNav - Public-Policy-Navigation-Using-AI
+AI-Powered Public Policy Navigation and Intelligence Platform
+Simplifying complex government policies through multilingual AI, summarization, and intelligent search.
+# 🔗 Links: 
+| Category       | Link                                   |
+| -------------- | -------------------------------------- |
+| Demo Video     | https://drive.google.com/file/d/1iWPSKYKJvN9n7cfZkcAdOkUDFPQ0DH1q/view?usp=sharing |
+| Source Code    | This Repository                        |
+| Docker Support | Yes                                    |
 | AI Models      | Sentence Transformers · FLAN-T5 · NLLB |
+# 📌 Table of Contents
+- About the Project
+- Problem Statement & Motivation
+- Key Features
+- Architecture
+- Tech Stack
+- Models Used
+- Project Structure
+- Installation & Setup
+- Usage Guide
+- Admin Controls
+- Screenshots
+- Roadmap
+- Team
+- License
+# 🚀 Key Features (Detailed Explanation)
+
+## 👤 User Features
+
+### 🔐 Secure Authentication System
+The platform implements a robust authentication and authorization mechanism to ensure user data security and controlled access.
+
+- Uses JWT (JSON Web Tokens) for session management, enabling stateless and secure authentication.
+- Passwords are encrypted using bcrypt hashing, preventing plaintext storage.
+- Includes OTP-based password recovery, ensuring secure identity verification.
+- Protects endpoints from unauthorized access through token validation.
+
+Why it matters:  
+Ensures user privacy, prevents unauthorized access, and aligns with modern security best practices.
 
 ---
 
-## 📌 Table of Contents  
-- About the Project  
-- Problem Statement & Motivation  
-- Key Features  
-- Architecture  
-- Tech Stack  
-- Models Used  
-- Installation & Setup  
-- Usage Guide  
-- Admin Controls  
-- Screenshots  
-- Roadmap  
-- Team  
-- License  
+### 🤖 AI Policy Assistant
+An intelligent conversational interface that allows users to interact with public policies using natural language queries.
+
+- Built using transformer-based NLP models.
+- Converts user queries into embeddings via Sentence Transformers.
+- Performs semantic search using FAISS to retrieve the most relevant policy content.
+- Generates contextual responses using FLAN-T5.
+
+Example Workflow:  
+User Query → Embedding → FAISS Retrieval → Context Extraction → FLAN-T5 Response
+
+Why it matters:  
+Removes the need for users to manually read long documents and enables intuitive interaction.
 
 ---
 
-## 📖 About the Project  
-PolicyNav is an AI-powered platform developed during the Infosys Springboard Internship to improve accessibility and understanding of public policy documents.  
+### 🌍 Multi-language Support
+Enables accessibility for users from diverse linguistic backgrounds.
 
-It uses advanced NLP techniques such as semantic search, summarization, multilingual translation, and entity extraction to transform complex policy documents into structured and easy-to-understand insights.  
+- Uses NLLB (No Language Left Behind) model for translation.
+- Supports both:
+  - Query translation (user input → English for processing)
+  - Response translation (output → user’s preferred language)
 
-The platform is designed for students, citizens, researchers, and policy analysts to efficiently explore, analyze, and interpret policies.
-
----
-
-## 🎯 Problem Statement & Motivation  
-Public policies are often difficult to understand due to:  
-- Complex legal language  
-- Lengthy and unstructured documents  
-- Lack of centralized access  
-- Language barriers  
-
-PolicyNav addresses these challenges by simplifying content, enabling intelligent search, and providing multilingual, structured insights.
+Why it matters:  
+Breaks language barriers and makes government policies accessible to a wider audience.
 
 ---
 
-## 🚀 Key Features (Detailed)  
+### ✂️ Intelligent Summarization
+Automatically generates concise summaries of lengthy policy documents.
 
-### 🔐 Secure Authentication  
-Provides a complete user authentication system including signup, login, and OTP-based password recovery. Ensures secure access using JWT tokens and encrypted passwords (bcrypt), maintaining data privacy and session management.
+- Uses FLAN-T5, a fine-tuned transformer model.
+- Extracts key information while preserving meaning and context.
+- Supports dynamic summarization based on retrieved policy sections.
 
----
-
-### 🤖 AI Policy Assistant  
-Allows users to interact with the system using natural language queries. The assistant understands user intent and retrieves relevant policy information using semantic search and NLP models, delivering accurate and contextual responses.
-
----
-
-### 🌍 Multi-language Support  
-Supports translation of both user queries and system responses using advanced multilingual models (NLLB). This ensures accessibility for users from different linguistic backgrounds.
+Why it matters:  
+Saves time and improves comprehension of complex documents.
 
 ---
 
-### ✂️ Summarization  
-Automatically generates concise summaries of long and complex policy documents using transformer-based models (FLAN-T5), helping users quickly grasp key information.
+### 🕸 Knowledge Graph Visualization
+Transforms unstructured policy data into structured visual relationships.
+
+- Uses SpaCy for Named Entity Recognition (NER).
+- Extracts entities such as organizations, policies, dates, and keywords.
+- Builds relationships and visualizes them using PyVis interactive graphs.
+
+Why it matters:  
+Helps users understand connections between policies, stakeholders, and concepts visually.
 
 ---
 
-### 🧠 Knowledge Graph Visualization  
-Extracts entities and relationships from policy text using NLP techniques and represents them visually using graphs (PyVis). This helps users understand connections between concepts, organizations, and regulations.
+### 📖 Readability Analyzer
+Evaluates and simplifies complex policy text for better understanding.
+
+- Uses NLP techniques to:
+  - Measure sentence complexity
+  - Identify difficult words and structures
+- Provides simplified interpretations of policy content.
+
+Why it matters:  
+Ensures accessibility for non-expert users and improves inclusivity.
 
 ---
 
-### 📊 Readability Analyzer  
-Evaluates the complexity of policy text and provides simplified interpretations. Helps users better understand difficult content by reducing linguistic complexity.
+### 🌐 Global Web Search Integration
+Enhances policy understanding by fetching external, real-time information.
+
+- Integrates web search APIs to retrieve:
+  - Latest policy updates
+  - Related news and articles
+- Combines internal knowledge base with external data sources.
+
+Why it matters:  
+Keeps users informed with up-to-date and contextual information.
 
 ---
 
-### 🌐 Global Web Search  
-Fetches additional policy-related information from external sources to provide broader context and enhance the accuracy of responses.
+### 👤 Profile Management System
+Allows users to manage personal information securely.
+
+- Update email and password
+- Upload avatar/profile image
+- Manage account preferences
+
+Why it matters:  
+Improves user personalization and engagement.
 
 ---
 
-### 👤 Profile Management  
-Allows users to manage their account details, update credentials, and personalize their experience within the platform.
+### 📊 Activity History Tracking
+Maintains a log of user interactions.
+
+- Stores:
+  - Queries asked
+  - Summaries generated
+  - Actions performed
+- Enables users to revisit previous insights.
+
+Why it matters:  
+Improves usability and supports continuity in research.
 
 ---
 
-### 📜 Activity History  
-Tracks user queries and interactions, enabling users to revisit previous searches and maintain continuity in their exploration.
+### ⭐ Feedback & Rating System
+Collects user feedback for continuous improvement.
+
+- Users can:
+  - Rate system responses
+  - Provide comments
+- Admin can analyze feedback trends.
+
+Why it matters:  
+Helps refine AI responses and improve system performance.
 
 ---
 
-### ⭐ Feedback System  
-Enables users to provide ratings and feedback, helping improve system performance and user experience.
+## 🛡 Admin Features (Detailed)
+
+### 👥 User Management Dashboard
+- View all registered users
+- Block or delete suspicious accounts
+- Monitor user activity patterns
 
 ---
 
-## 🛠 Admin Features (Detailed)  
-
-### 👥 User Management  
-Admins can view, block, or delete users to maintain system integrity and security.
-
-### 📊 Feedback Monitoring  
-Allows administrators to analyze user feedback and identify areas for improvement.
-
-### 📋 Activity Logs  
-Tracks system-wide activity for monitoring usage patterns and debugging.
-
-### 📈 Analytics Dashboard  
-Provides insights into user engagement, usage statistics, and system performance.
+### 📈 System Monitoring & Analytics
+- Track:
+  - Number of queries
+  - Active users
+  - System usage trends
 
 ---
 
-## 🧩 Architecture  
-Monolithic architecture integrating all components:  
-
-**User → Streamlit UI → Python Backend → AI Models → Database**
-
----
-
-## 🛠 Tech Stack  
-| Layer         | Technology |
-| ------------- | ---------- |
-| Frontend      | Streamlit |
-| Backend       | Python |
-| Database      | SQLite |
-| AI Models     | Hugging Face Transformers |
-| Search        | FAISS |
-| NLP           | SpaCy |
-| Visualization | PyVis |
-| Security      | JWT, bcrypt, OTP |
-| Deployment    | Docker |
+### 💬 Feedback Moderation
+- Analyze user feedback
+- Identify issues in AI responses
+- Improve model performance based on insights
 
 ---
 
-## 🤖 Models Used  
-| Model                 | Purpose |
-| --------------------- | ------- |
-| Sentence Transformers | Semantic search and embeddings |
-| FLAN-T5               | Text summarization |
-| NLLB                  | Multilingual translation |
-| SpaCy                 | Named entity recognition |
+### 📜 Activity Logs
+- Maintain logs for:
+  - User actions
+  - System events
+- Useful for debugging and auditing
 
 ---
 
-## ⚙️ Installation & Setup  
+## 🧩 Architecture (Detailed Explanation)
 
-```bash
-git clone <repository-link>
-cd PolicyNav
-pip install -r requirements.txt
-streamlit run app.py
+The system follows a monolithic architecture where all components are integrated into a unified application.
 
-![ScreenShots]
+### 🔄 Data Flow
 
-<img width="913" height="401" alt="Screenshot 2026-03-15 133821" src="https://github.com/user-attachments/assets/2e03ac89-a653-496f-8788-62c024c53051" />
-<img width="1700" height="717" alt="Screenshot 2026-03-18 230308" src="https://github.com/user-attachments/assets/158da1f7-a70b-4b4f-b7f2-0367b350504f" />
-<img width="1693" height="751" alt="Screenshot 2026-03-18 230257" src="https://github.com/user-attachments/assets/f2558292-e101-4893-8a64-7db72fb98e01" />
-<img width="1757" height="800" alt="Screenshot 2026-03-18 230236" src="https://github.com/user-attachments/assets/8fbbaaed-f4a8-4b5a-ae64-905db9bf5b3c" />
-<img width="1850" height="823" alt="Screenshot 2026-03-18 225956" src="https://github.com/user-attachments/assets/f2c40100-3b3e-47b3-9cf0-f8f7d0c0354e" />
-<img width="1824" height="814" alt="Screenshot 2026-03-18 225902" src="https://github.com/user-attachments/assets/7f8da425-3106-4d20-baa3-a74b36004b7b" />
-<img width="1784" height="804" alt="Screenshot 2026-03-18 225734" src="https://github.com/user-attachments/assets/06ee4013-5d12-4d1d-8953-cccdb9fcd443" />
-<img width="991" height="555" alt="Screenshot 2026-03-18 225708" src="https://github.com/user-attachments/assets/2499892a-3edd-418e-aeb1-c51b379bb284" />
-<img width="1796" height="811" alt="Screenshot 2026-03-18 225653" src="https://github.com/user-attachments/assets/45faa885-b78c-4ca5-b858-b3e859d9812c" />
-<img width="1893" height="847" alt="Screenshot 2026-03-18 225641" src="https://github.com/user-attachments/assets/e5a52a12-0c0c-49ad-8bed-a8bbd6b78f84" />
-<img width="1909" height="821" alt="Screenshot 2026-03-18 225619" src="https://github.com/user-attachments/assets/6c685fdf-d43d-4b4b-97ab-5fc3b8764c0d" />
-<img width="1892" height="829" alt="Screenshot 2026-03-18 225554" src="https://github.com/user-attachments/assets/3a21733b-2a92-4c5f-bd61-d2ac63c0473d" />
-<img width="1880" height="830" alt="Screenshot 2026-03-18 225531" src="https://github.com/user-attachments/assets/d9e1b0b9-a2a0-4d18-b8b0-15c7e5f3ea0f" />
-<img width="1865" height="842" alt="Screenshot 2026-03-18 225511" src="https://github.com/user-attachments/assets/f088c04d-0e76-49bd-aea6-a4bf2f39e02a" />
-<img width="1026" height="406" alt="Screenshot 2026-03-18 021246" src="https://github.com/user-attachments/assets/5dff955e-8708-413e-9741-8f354fecbabb" />
-<img width="873" height="339" alt="Screenshot 2026-03-18 004338" src="https://github.com/user-attachments/assets/de99336a-9bbd-403d-82f4-7ef56076f2b0" />
-<img width="1026" height="406" alt="Screenshot 2026-03-18 021246" src="https://github.com/user-attachments/assets/beb25f80-fff1-4cbc-aa04-ae043d8946d0" />
+1. User interacts via Streamlit UI  
+2. Request is sent to Python backend  
+3. Backend processes:
+   - Authentication
+   - Query handling  
+4. AI modules perform:
+   - Embedding generation
+   - Semantic search (FAISS)
+   - Summarization / translation  
+5. Results are returned to UI  
+6. Data is stored/retrieved from SQLite database  
 
+---
+
+### 🧠 AI Pipeline
+
+- Input Query  
+→ Preprocessing  
+→ Embedding (Sentence Transformers)  
+→ Retrieval (FAISS)  
+→ Processing (FLAN-T5 / NLLB)  
+→ Output Response  
+
+Why Monolithic?  
+- Easier deployment (especially with Docker)  
+- Simpler integration of AI modules  
+- Suitable for prototype and hackathon environments  
+
+---
+
+## 🛠 Tech Stack (Detailed Justification)
+
+| Layer         | Technology                 | Why Used |
+|--------------|--------------------------|---------|
+| Frontend     | Streamlit                 | Rapid UI development and ML integration |
+| Backend      | Python                    | Strong ecosystem for AI/ML and APIs |
+| Database     | SQLite                    | Lightweight and easy to integrate |
+| AI Models    | Hugging Face Transformers | State-of-the-art NLP capabilities |
+| Search       | FAISS                     | Fast similarity search for embeddings |
+| NLP          | SpaCy                     | Efficient entity extraction |
+| Visualization| PyVis                     | Interactive graph visualization |
+| Security     | JWT, bcrypt, OTP          | Secure authentication and encryption |
+| Deployment   | Docker                    | Easy containerization and portability |
+
+---
+
+## 🤖 Models Used (Detailed Explanation)
+
+### Sentence Transformers
+- Converts text into dense vector embeddings  
+- Enables semantic similarity search  
+- Works with FAISS for fast retrieval  
+
+---
+
+### FLAN-T5
+- Instruction-tuned transformer model  
+- Used for:
+  - Summarization  
+  - Question answering  
+- Generates human-like responses  
+
+---
+
+### NLLB (No Language Left Behind)
+- Meta AI multilingual translation model  
+- Supports low-resource languages  
+- Ensures global accessibility  
+
+---
+
+### SpaCy
+- Industrial-strength NLP library  
+- Used for:
+  - Named Entity Recognition (NER)  
+  - Text preprocessing
+ 
+
+# 📸 Screenshots
+
+
+<img width="913" height="401" alt="Screenshot 2026-03-15 133821" src="https://github.com/user-attachments/assets/12289b46-31bd-41ac-8084-8811f4f7980b" />
+<img width="1865" height="842" alt="Screenshot 2026-03-18 225511" src="https://github.com/user-attachments/assets/8f9cd591-8e89-48af-a55f-6c53748bbfe7" />
+<img width="1026" height="406" alt="Screenshot 2026-03-18 021246" src="https://github.com/user-attachments/assets/8e548c4c-4080-4730-a188-f70b891c3d0d" />
+<img width="1893" height="847" alt="Screenshot 2026-03-18 225641" src="https://github.com/user-attachments/assets/39e8a589-21fa-41a9-bd4b-69dbedb27b5c" />
+<img width="1909" height="821" alt="Screenshot 2026-03-18 225619" src="https://github.com/user-attachments/assets/be66cc46-fe34-4ea9-8f59-e30f78ecab56" />
+<img width="1892" height="829" alt="Screenshot 2026-03-18 225554" src="https://github.com/user-attachments/assets/881a72c8-8baa-4ae4-8420-bec8c0d7c4fc" />
+<img width="1<img width="1784" height="804" alt="Screenshot 2026-03-18 225734" src="https://github.com/user-attachments/assets/802c4243-3251-4d28-a8d2-557ad56a43ca" />
+<img width="991" height="555" alt="Screenshot 2026-03-18 225708" src="https://github.com/user-attachments/assets/d9d80693-ebcf-4cf1-ac2e-df6b905d5f2c" />
+<img width="1796" height="811" alt="Screenshot 2026-03-18 225653" src="https://github.com/user-attachments/assets/62abd28c-2f82-4330-bcf8-fcd6ff6fe57a" />
+<img width="1700" height="717" alt="Screenshot 2026-03-18 230308" src="https://github.com/user-attachments/assets/7feda5b0-58d2-4415-bedb-95eb967913f9" />
+<img width="1693" height="751" alt="Screenshot 2026-03-18 230257" src="https://github.com/user-attachments/assets/931c4283-fa1b-48a4-8ab3-dcca4366da22" />
+<img width="1757" height="800" alt="Screenshot 2026-03-18 230236" src="https://github.com/user-attachments/assets/420669a0-09c1-49eb-97f5-66bb17660d76" />
+<img width="1850" height="823" alt="Screenshot 2026-03-18 225956" src="https://github.com/user-attachments/assets/133c0a18-1579-432d-a2c6-143d5e03bda1" />
+<img width="1824" height="814" alt="Screenshot 2026-03-18 225902" src="https://github.com/user-attachments/assets/a4b611e3-8f3b-4bbc-acee-af7fe734581c" />
+880" height="830" alt="Screenshot 2026-03-18 225531" src="https://github.com/user-attachments/assets/1e6c1af5-3ad7-4e77-be72-441f08d4e79d" />
+
+# 📊 Roadmap
+- Improve model performance
+- Add more datasets
+- Enhance UI/UX
+- Deploy on cloud platform
+- Add voice-based interaction
+# 👥 Team
+| Name                          | Role                              |
+| ----------------------------- | --------------------------------- |
+| Shambhavi Jha                 | AI and NLP Development            |
+| Srideepalakshmi Muruganantham | Backend and Security              |
+| Mainuddeen                    | Summarization and Web Integration |
+| Bhuvaneshwar Reddy Mandadapu  | Profile and System Integration    |
+| Arjun L Nair                  | Testing and Deployment            |
+# 📜 License
+MIT License
+- Free to use, modify, and distribute with proper credits.
