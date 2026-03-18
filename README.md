@@ -620,6 +620,8 @@ The future development of PolicyNav focuses on enhancing performance, scalabilit
 | Mainuddeen                    | Summarization and Web Integration |
 | Bhuvaneshwar Reddy Mandadapu  | Profile and System Integration    |
 | Arjun L Nair                  | Testing and Deployment            |
+
+
 # 📜 License
 
 
