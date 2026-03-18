@@ -174,16 +174,21 @@ The project is developed in a structured and incremental manner, divided into fo
 
 milestones/
 │
+
 ├── milestone_1/
+
 │   ├── README.md   # Covers initial setup, problem understanding, and basic implementation
 │
 ├── milestone_2/
+
 │   ├── README.md   # Covers core feature development (authentication, basic NLP modules)
 │
 ├── milestone_3/
+
 │   ├── README.md   # Covers advanced AI integration (search, summarization, translation)
 │
 ├── milestone_4/
+
 │   ├── README.md   # Covers final integration, testing, deployment, and optimization
 # ⚙️ Installation & Setup
 
@@ -575,23 +580,50 @@ Why Monolithic?
 
 
 <img width="913" height="401" alt="Screenshot 2026-03-15 133821" src="https://github.com/user-attachments/assets/12289b46-31bd-41ac-8084-8811f4f7980b" />
+
+
 <img width="1865" height="842" alt="Screenshot 2026-03-18 225511" src="https://github.com/user-attachments/assets/8f9cd591-8e89-48af-a55f-6c53748bbfe7" />
+
+
 <img width="1026" height="406" alt="Screenshot 2026-03-18 021246" src="https://github.com/user-attachments/assets/8e548c4c-4080-4730-a188-f70b891c3d0d" />
+
+
 <img width="1893" height="847" alt="Screenshot 2026-03-18 225641" src="https://github.com/user-attachments/assets/39e8a589-21fa-41a9-bd4b-69dbedb27b5c" />
+
+
 <img width="1909" height="821" alt="Screenshot 2026-03-18 225619" src="https://github.com/user-attachments/assets/be66cc46-fe34-4ea9-8f59-e30f78ecab56" />
+
+
 <img width="1892" height="829" alt="Screenshot 2026-03-18 225554" src="https://github.com/user-attachments/assets/881a72c8-8baa-4ae4-8420-bec8c0d7c4fc" />
+
+
 <img width="1<img width="1784" height="804" alt="Screenshot 2026-03-18 225734" src="https://github.com/user-attachments/assets/802c4243-3251-4d28-a8d2-557ad56a43ca" />
+
+
 <img width="991" height="555" alt="Screenshot 2026-03-18 225708" src="https://github.com/user-attachments/assets/d9d80693-ebcf-4cf1-ac2e-df6b905d5f2c" />
+
+
 <img width="1796" height="811" alt="Screenshot 2026-03-18 225653" src="https://github.com/user-attachments/assets/62abd28c-2f82-4330-bcf8-fcd6ff6fe57a" />
+
+
 <img width="1700" height="717" alt="Screenshot 2026-03-18 230308" src="https://github.com/user-attachments/assets/7feda5b0-58d2-4415-bedb-95eb967913f9" />
+
+
 <img width="1693" height="751" alt="Screenshot 2026-03-18 230257" src="https://github.com/user-attachments/assets/931c4283-fa1b-48a4-8ab3-dcca4366da22" />
+
+
 <img width="1757" height="800" alt="Screenshot 2026-03-18 230236" src="https://github.com/user-attachments/assets/420669a0-09c1-49eb-97f5-66bb17660d76" />
+
+
 <img width="1850" height="823" alt="Screenshot 2026-03-18 225956" src="https://github.com/user-attachments/assets/133c0a18-1579-432d-a2c6-143d5e03bda1" />
+
+
 <img width="1824" height="814" alt="Screenshot 2026-03-18 225902" src="https://github.com/user-attachments/assets/a4b611e3-8f3b-4bbc-acee-af7fe734581c" />
+
+
 880" height="830" alt="Screenshot 2026-03-18 225531" src="https://github.com/user-attachments/assets/1e6c1af5-3ad7-4e77-be72-441f08d4e79d" />
 
 
-# 👥 Team 1
 # 📊 Roadmap
 
 The future development of PolicyNav focuses on enhancing performance, scalability, user experience, and accessibility. The following roadmap outlines planned improvements and upcoming features:
@@ -647,6 +679,9 @@ The future development of PolicyNav focuses on enhancing performance, scalabilit
 - Integrate real-time policy updates and alerts
 - Add personalized recommendations based on user behavior
 - Expand to global policy coverage
+
+
+# 👥 Team 1
 
 | Name                          | Role                              |
 | ----------------------------- | --------------------------------- |
