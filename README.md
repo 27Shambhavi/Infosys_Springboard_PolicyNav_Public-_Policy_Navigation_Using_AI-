@@ -167,38 +167,74 @@ To build an intelligent, user-centric platform that transforms static and comple
 
 # 📂 Project Structure
 
-The project follows a modular and organized structure to ensure scalability, readability, and ease of development.
+The project follows a structured, milestone-driven development approach to ensure clarity, scalability, and systematic progress. Each phase of development is organized into separate milestone folders, allowing easy tracking of features and improvements over time.
 
-PolicyNav/
-│
-├── Milestone1/                # Initial phase: problem understanding, basic setup
-│   └── README.md             # Documentation for Milestone 1
-│
-├── Milestone2/                # Core development: authentication, basic features
-│   └── README.md             # Documentation for Milestone 2
-│
-├── Milestone3/                # Advanced features: AI models, search, summarization
-│   └── README.md             # Documentation for Milestone 3
-│
-├── Milestone4/                # Final phase: integration, testing, deployment
-│   └── README.md             # Documentation for Milestone 4
-│
-├── README.md                  # Main project documentation
-├── requirements.txt           # Python dependencies
-├── LICENSE                    # Project license (MIT)
+---
 
-## 📁 Structure Overview
+## 🔄 Development Flow Structure
 
-- Each **Milestone folder** represents a specific phase of development.
-- Every milestone contains a dedicated `README.md` explaining:
-  - Objectives
-  - Features implemented
-  - Technologies used
-  - Challenges and solutions
-- The root `README.md` provides a complete overview of the entire project.
-- `requirements.txt` ensures easy dependency installation.
-- `LICENSE` defines usage and distribution permissions.
+PolicyNav → Milestone1 → Milestone2 → Milestone3 → Milestone4 → Final System
 
+---
+
+## 🧩 Folder Organization
+
+### 📁 Milestone 1 – Foundation Phase
+This is the starting point of the project where the core idea and setup are established.
+
+- Problem understanding and requirement analysis  
+- Initial project setup and environment configuration  
+- Basic UI design and workflow planning  
+- Documentation available in `Milestone1/README.md`  
+
+---
+
+### ⚙️ Milestone 2 – Core Development Phase
+This phase focuses on building the fundamental system features.
+
+- User authentication (JWT, bcrypt, OTP)  
+- Basic backend logic and database integration  
+- Initial NLP pipeline setup  
+- Documentation available in `Milestone2/README.md`  
+
+---
+
+### 🧠 Milestone 3 – AI Integration Phase
+In this phase, advanced AI functionalities are integrated into the system.
+
+- Semantic search using FAISS  
+- Summarization using FLAN-T5  
+- Translation using NLLB  
+- Entity extraction using SpaCy  
+- Documentation available in `Milestone3/README.md`  
+
+---
+
+### 🚀 Milestone 4 – Finalization Phase
+This is the final stage where the system is completed and prepared for deployment.
+
+- Full system integration  
+- Testing and debugging  
+- Performance optimization  
+- Docker-based deployment  
+- Documentation available in `Milestone4/README.md`  
+
+---
+
+## 📌 Root-Level Files
+
+- `README.md` → Contains the complete overview of the project  
+- `requirements.txt` → Lists all required dependencies  
+- `LICENSE` → Defines project usage and distribution rights  
+
+---
+
+## ✅ Key Advantages of This Structure
+
+- Clearly shows **project evolution from basic to advanced stages**  
+- Makes it easier for evaluators to **track progress step-by-step**  
+- Ensures **clean separation of features and implementation phases**  
+- Improves maintainability and future scalability  
 ---
 
 ## 📌 Why This Structure?
