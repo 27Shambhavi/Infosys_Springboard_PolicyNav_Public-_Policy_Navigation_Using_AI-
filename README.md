@@ -168,38 +168,64 @@ To build an intelligent, user-centric platform that transforms static and comple
 # 📂 Project Structure
 
 The project follows a modular and organized structure to ensure scalability, readability, and ease of development.
-## 📁 Milestone-Based Development Structure
 
-The project is developed in a structured and incremental manner, divided into four major milestones. Each milestone represents a specific phase of development and contains its own dedicated folder along with a detailed README file explaining the work completed in that phase.
-
-milestones/
+PolicyNav/
 │
-
-├── milestone_1/
-
-│   ├── README.md   # Covers initial setup, problem understanding, and basic implementation
-
+├── Milestone1/           # Initial phase: problem understanding, basic setup
+│   ├── README.md         # Documentation for Milestone 1
 │
-
-├── milestone_2/
-
-│   ├── README.md   # Covers core feature development (authentication, basic NLP modules)
-
+├── Milestone2/           # Core development: authentication, basic features
+│   ├── README.md         # Documentation for Milestone 2
 │
-
-├── milestone_3/
-
-    ├── README.md   # Covers advanced AI integration (search, summarization, translation)
-│   
-
-
+├── Milestone3/           # Advanced features: AI models, search, summarization
+│   ├── README.md         # Documentation for Milestone 3
 │
+├── Milestone4/           # Final phase: integration, testing, deployment
+│   ├── README.md         # Documentation for Milestone 4
+│
+├── README.md             # Main project documentation
+├── requirements.txt      # Python dependencies
+├── LICENSE               # Project license (MIT)
 
-├── milestone_4/
+## 📁 Milestone Description
 
-│  
+### 🧩 Milestone 1
+- Problem understanding and requirement analysis  
+- Initial project setup and environment configuration  
+- Basic UI and system design  
 
-├── README.md   # Covers final integration, testing, deployment, and optimization
+---
+
+### ⚙️ Milestone 2
+- Implementation of core features  
+- Authentication system (JWT, bcrypt, OTP)  
+- Basic NLP processing pipeline  
+
+---
+
+### 🧠 Milestone 3
+- Integration of advanced AI models  
+- Semantic search using FAISS  
+- Summarization (FLAN-T5)  
+- Translation (NLLB)  
+- Entity extraction (SpaCy)  
+
+---
+
+### 🚀 Milestone 4
+- Full system integration  
+- Testing and debugging  
+- Performance optimization  
+- Deployment using Docker  
+
+---
+
+## 📌 Benefits of This Structure
+
+- Clear separation of development phases  
+- Easy tracking of project progress  
+- Better documentation and evaluation  
+- Simplifies debugging and feature enhancement  
 
 
 # ⚙️ Installation & Setup
