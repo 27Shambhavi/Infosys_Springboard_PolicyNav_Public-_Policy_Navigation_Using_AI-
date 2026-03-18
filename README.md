@@ -244,38 +244,6 @@ This is the final stage where the system is completed and prepared for deploymen
 - Clearly shows **project progression (M1 → M4)**
 - Helps in **maintenance and scalability**
 
-## 📁 Milestone Description
-
-### 🧩 Milestone 1
-- Problem understanding and requirement analysis  
-- Initial project setup and environment configuration  
-- Basic UI and system design  
-
----
-
-### ⚙️ Milestone 2
-- Implementation of core features  
-- Authentication system (JWT, bcrypt, OTP)  
-- Basic NLP processing pipeline  
-
----
-
-### 🧠 Milestone 3
-- Integration of advanced AI models  
-- Semantic search using FAISS  
-- Summarization (FLAN-T5)  
-- Translation (NLLB)  
-- Entity extraction (SpaCy)  
-
----
-
-### 🚀 Milestone 4
-- Full system integration  
-- Testing and debugging  
-- Performance optimization  
-- Deployment using Docker  
-
----
 
 ## 📌 Benefits of This Structure
 
