@@ -316,6 +316,9 @@ The platform includes a dedicated admin interface for managing users, monitoring
 ## 🔐 Security Oversight
 - Monitor authentication activity
 - Ensure secure access and data protection
+## System Architecture 
+
+![system_archi](https://github.com/user-attachments/assets/0eb49381-8f48-4cc8-a3cd-2a38161d1e98)
 
 
 # 🚀 Key Features 
