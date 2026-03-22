@@ -575,7 +575,8 @@ Why Monolithic?
 # 📸 Screenshots
 
 
-<img width="913" height="401" alt="Screenshot 2026-03-15 133821" src="https://github.com/user-attachments/assets/12289b46-31bd-41ac-8084-8811f4f7980b" />
+<img width="1426" height="679" alt="oooo" src="https://github.com/user-attachments/assets/1bab2372-2a74-41e1-b8ef-1158cf5fb489" />
+
 
 <img width="1919" height="877" alt="Screenshot 2026-03-15 134023" src="https://github.com/user-attachments/assets/6a7105d7-bdc4-48d5-b25b-7b96a530902c" />
 
