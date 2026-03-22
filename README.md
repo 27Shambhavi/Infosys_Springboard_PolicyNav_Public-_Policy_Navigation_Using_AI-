@@ -21,7 +21,6 @@ Simplifying complex government policies through multilingual AI, summarization, 
 - Usage Guide
 - Admin Controls
 - Screenshots
-- Roadmap
 - Team
 - License
 
