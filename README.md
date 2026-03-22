@@ -620,62 +620,6 @@ Why Monolithic?
 ![Screenshot 2026-03-18 225531](https://github.com/user-attachments/assets/1e6c1af5-3ad7-4e77-be72-441f08d4e79d)
 
 
-# 📊 Roadmap
-
-The future development of PolicyNav focuses on enhancing performance, scalability, user experience, and accessibility. The following roadmap outlines planned improvements and upcoming features:
-
----
-
-## 🚀 Improve Model Performance
-- Fine-tune existing models (FLAN-T5, Sentence Transformers) on domain-specific policy datasets
-- Optimize response accuracy and relevance in semantic search
-- Reduce latency in query processing and model inference
-- Implement caching mechanisms for frequently asked queries
-- Explore lightweight or quantized models for faster execution
-
----
-
-## 📚 Expand Dataset Coverage
-- Integrate additional government policy datasets from multiple domains (health, education, finance, etc.)
-- Include region-specific and state-level policies
-- Continuously update datasets to reflect latest policy changes
-- Improve data preprocessing and cleaning pipelines for better model performance
-
----
-
-## 🎨 Enhance UI/UX
-- Improve overall interface design for better usability and accessibility
-- Add interactive dashboards and visual components
-- Optimize navigation flow for smoother user experience
-- Ensure mobile responsiveness and cross-device compatibility
-- Enhance visualization of knowledge graphs and outputs
-
----
-
-## ☁️ Cloud Deployment & Scalability
-- Deploy the application on cloud platforms (AWS / Azure / GCP)
-- Implement scalable backend infrastructure for handling multiple users
-- Use container orchestration (Docker + Kubernetes) for efficient deployment
-- Enable CI/CD pipelines for automated testing and deployment
-- Improve system reliability and uptime
-
----
-
-## 🎤 Voice-Based Interaction
-- Integrate speech-to-text functionality for voice queries
-- Enable text-to-speech for AI-generated responses
-- Support multilingual voice interaction
-- Improve accessibility for users with limited literacy or disabilities
-- Create a conversational AI experience using voice assistants
-
----
-
-## 🔮 Future Vision
-- Build a fully conversational AI policy assistant
-- Integrate real-time policy updates and alerts
-- Add personalized recommendations based on user behavior
-- Expand to global policy coverage
-
 
 # 👥 Team 1
 
