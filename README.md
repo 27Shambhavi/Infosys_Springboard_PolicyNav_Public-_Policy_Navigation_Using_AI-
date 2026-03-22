@@ -577,6 +577,8 @@ Why Monolithic?
 
 <img width="913" height="401" alt="Screenshot 2026-03-15 133821" src="https://github.com/user-attachments/assets/12289b46-31bd-41ac-8084-8811f4f7980b" />
 
+<img width="1919" height="877" alt="Screenshot 2026-03-15 134023" src="https://github.com/user-attachments/assets/6a7105d7-bdc4-48d5-b25b-7b96a530902c" />
+
 
 <img width="1865" height="842" alt="Screenshot 2026-03-18 225511" src="https://github.com/user-attachments/assets/8f9cd591-8e89-48af-a55f-6c53748bbfe7" />
 
