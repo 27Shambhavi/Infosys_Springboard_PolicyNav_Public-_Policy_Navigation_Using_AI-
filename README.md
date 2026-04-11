@@ -320,7 +320,6 @@ The platform includes a dedicated admin interface for managing users, monitoring
 ![archi_policynav](https://github.com/user-attachments/assets/2521d387-d3cf-47bd-9b30-79da9ca9e9d5)
 
 
-
 # 🚀 Key Features 
 
 ## 👤 User Features
