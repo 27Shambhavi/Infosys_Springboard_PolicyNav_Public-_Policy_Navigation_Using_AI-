@@ -317,7 +317,8 @@ The platform includes a dedicated admin interface for managing users, monitoring
 - Ensure secure access and data protection
 ## System Architecture 
 
-(https://github.com/user-attachments/assets/5706574f-72d4-4353-b8a8-e648d58e9fab)
+![archi_policynav](https://github.com/user-attachments/assets/2521d387-d3cf-47bd-9b30-79da9ca9e9d5)
+
 
 
 # 🚀 Key Features 
